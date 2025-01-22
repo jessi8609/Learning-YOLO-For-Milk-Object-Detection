@@ -1,0 +1,13 @@
+train: C:/Users/13/Desktop/milk1/train/images
+val: C:/Users/13/Desktop/milk1/valid/images
+
+nc: 1  # Number of classes
+names:
+  - milk1  # Class names
+
+roboflow:
+  workspace: convenience-store-object-detection
+  project: garbage-ibz7a-vy6pg
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/convenience-store-object-detection/garbage-ibz7a-vy6pg/dataset/2
